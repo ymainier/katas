@@ -71,6 +71,7 @@ describe("array", () => {
     // Note: initial and transfomed have the same number of element
     const initial = ["un", "dos", "tres"];
     // call a method on initial, see [list of all instance method on Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods)
+    // uppercase a string s: (s) => s.toUpperCase()
     const transformed = initial;
 
     expect(transformed).toEqual(["UN", "DOS", "TRES"]);
@@ -80,6 +81,7 @@ describe("array", () => {
     // Note: initial and transfomed have a different number of element
     const initial = [1, 2, 3, 4];
     // call a method on initial, see [list of all instance method on Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods)
+    // is a number n even?: (n) => n % 2 === 0;
     const transformed = initial;
 
     expect(transformed).toEqual([2, 4]);
